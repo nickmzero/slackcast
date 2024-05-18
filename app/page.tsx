@@ -1,5 +1,5 @@
 import {fetchMetadata} from 'frames.js/next';
-import {siteUrl} from './consts';
+import {siteUrl} from './utils/consts';
 
 export async function generateMetadata() {
   return {
